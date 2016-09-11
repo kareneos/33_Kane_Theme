@@ -1,4 +1,7 @@
 /*GENERAL*/
+.mt-1{
+    margin-top: 1%;
+}
 /*TEXT*/
 * {
     font-family: 'Roboto', sans-serif;
