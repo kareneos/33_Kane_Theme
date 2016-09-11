@@ -13,6 +13,15 @@
 .bggrayf{
     background-color: #2D3E50;
 }
+.bgbrown{
+    background-color: #8F6037;
+}
+.bgbrownf{
+    background-color: #443D43;
+}
+.bgwhite{
+    background-color: white;
+}
 #intro{
     background-image: url("../img/carousel-bg.jpg")
 }
@@ -25,6 +34,7 @@
 .progress-bar{
     background-color: #E77D22;
 }
+/*progress bars*/
 .pb1{
     width: 90%;
 }
@@ -39,6 +49,10 @@
 }
 .pb5{
     width: 80%;
+}
+/*PRICE*/
+.borderg{
+    border: .1em solid #568248;
 }
 /*COLOR PALETTE*/
 .colors{
