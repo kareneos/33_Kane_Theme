@@ -18,6 +18,25 @@
     border: .3em solid white;
 }
 /*SECTIONS*/
+/*ABOUT US*/
+.progress-bar{
+    background-color: #E77D22;
+}
+.pb1{
+    width: 90%;
+}
+.pb2{
+    width: 85%;
+}
+.pb3{
+    width: 60%;
+}
+.pb4{
+    width: 70%;
+}
+.pb5{
+    width: 80%;
+}
 /*COLOR PALETTE*/
 .colors{
     height: 10em;
