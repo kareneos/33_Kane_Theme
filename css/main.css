@@ -3,6 +3,9 @@
 * {
     font-family: 'Roboto', sans-serif;
 }
+.gray{
+    color: #9BC9B6;
+}
 /*BACKGROUNDS*/
 .bggreen{
     background-color: #26AD5F;

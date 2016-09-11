@@ -1,4 +1,6 @@
-/*GENERAL*/ext-decoration: none;
+/*GENERAL*/
+button{
+    border: none;
 }
 a:hover{
     text-decoration: none;
