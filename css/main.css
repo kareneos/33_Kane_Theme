@@ -2,6 +2,9 @@
 .mt-1{
     margin-top: 1%;
 }
+.pd-1{
+    padding: 1%;
+}
 /*TEXT*/
 * {
     font-family: 'Roboto', sans-serif;
@@ -30,6 +33,9 @@
 }
 #intro{
     background-image: url("../img/carousel-bg.jpg")
+}
+#socialm{
+    background-image: url("../img/img-divider-img.jpg");
 }
 /*HEADER*/
 .icon-bar{
