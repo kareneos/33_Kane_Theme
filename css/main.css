@@ -1,4 +1,8 @@
+/*GENERAL*/
 /*TEXT*/
+* {
+    font-family: 'Roboto', sans-serif;
+}
 /*BACKGROUNDS*/
 .bggreen{
     background-color: #26AD5F;
@@ -6,4 +10,33 @@
 .bggrayf{
     background-color: #2D3E50;
 }
+#intro{
+    background-image: url("../img/carousel-bg.jpg")
+}
+/*HEADER*/
+.icon-bar{
+    border: .3em solid white;
+}
 /*SECTIONS*/
+/*COLOR PALETTE*/
+.colors{
+    height: 10em;
+}
+.lastcolor{
+    width: 14em;
+}
+#color1{
+    background-color: #69D2E7;
+}
+#color2{
+    background-color: #A7DADB;
+}
+#color3{
+    background-color: #E1E3CF;
+}
+#color4{
+    background-color: #F38631;
+}
+#color5{
+    background-color: #F96800;
+}
