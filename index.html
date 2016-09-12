@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/utilities.css">
     <link rel="stylesheet" href="css/queries.css">
+    <link href="css/hover-min.css" rel="stylesheet" media="all">
   </head>
 
 <body>
@@ -28,25 +29,25 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="Kane"></a>
+                <a class="navbar-brand hvr-grow" href="index.html"><img src="img/logo.png" alt="Kane"></a>
             </div>
             <!--LIST -->
             <div class="collapse navbar-collapse navbar-ex1-collapse bggreen">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="">Team</a></li>
-                    <li><a href="">Price</a></li>
-                    <li><a href="">Clients</a></li>
-                    <li><a href="">Facts</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul class="nav navbar-nav navbar-right pt-2">
+                    <li><a href="#intro">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#price">Price</a></li>
+                    <li><a href="#clients">Clients</a></li>
+                    <li><a href="#facts">Facts</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <!--INTRO-->
     <section id="intro">
-        <div class="container-fluid white text-center pd-10">
+        <div class="container-fluid white text-center pd-5">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div>
@@ -198,7 +199,7 @@
         </div>
    </section>
     <!--WHAT WE DO-->
-    <section class="bggreen white text-center pd-5">
+    <section class="bggreen white text-center pd-5" id="service">
         <div class="container">
            <!--title-->
             <div class="row">
@@ -213,10 +214,10 @@
             <!--images-->
             <div class="row pt-5">
                 <!--column1-->
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 weDo">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="img/icons/webdesign.png" alt="web">
+                            <img src="img/icons/webdesign.png" alt="web" class="pd-10 whatwd">
                         </div>
                     </div>
                     <div class="row">
@@ -227,10 +228,10 @@
                     </div>
                 </div>
                 <!--column2-->
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 weDo">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="img/icons/graphicdesign.png" alt="graphic">
+                            <img src="img/icons/graphicdesign.png" alt="graphic" class="pd-10 whatwd">
                         </div>
                     </div>
                     <div class="row">
@@ -241,10 +242,10 @@
                     </div>
                 </div>
                 <!--column3-->
-                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+                <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 weDo">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <img src="img/icons/mobile.png" alt="mobile">
+                            <img src="img/icons/mobile.png" alt="mobile" class="pd-10 whatwd">
                         </div>
                     </div>
                     <div class="row">
@@ -258,13 +259,13 @@
             <!--button-->
             <div class="row pt-5">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <button type="button" class="btn-lg bggrayf white">HIRE US NOW!</button>
+                    <button type="button" class="btn-lg bggrayf white hvr-grow">HIRE US NOW!</button>
                 </div>
             </div>
         </div>
     </section>
     <!--OUR TEAM-->
-    <section class="bggreen white text-center pd-5 hidden-xs">
+    <section class="bggreen white text-center pd-5 hidden-xs" id="team">
         <div class="container">
            <!--title-->
             <div class="row">
@@ -394,7 +395,7 @@
         </div>
     </section>
     <!--PRICE-->
-    <section class="bggrayf white text-center pd-5">
+    <section class="bggrayf white text-center pd-5" id="price">
         <div class="container">
            <!--title-->
             <div class="row">
@@ -409,8 +410,8 @@
             <!--4 prices-->
             <div class="row pt-10">
                <!--STARTER-->
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="borderg">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-float">
+                    <div class="borderg prices">
                         <h3 class="bgbrown pd-10 mg-0">STARTER</h3>
                         <h2 class="bggreen pd-10 mg-0">$10<small class="white">/MO</small></h2>
                         <p class="mg-0 bggreen pb-5">1 month Free trial</p>
@@ -424,8 +425,8 @@
                     </div>
                 </div>
                 <!--BASIC-->
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="borderg">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-float">
+                    <div class="borderg prices">
                         <h3 class=" pd-10 mg-0">BASIC</h3>
                         <h2 class="bggreen pd-10 mg-0">$15<small class="white">/MO</small></h2>
                         <p class="mg-0 bggreen pb-5">1 month Free trial</p>
@@ -439,8 +440,8 @@
                     </div>
                 </div>
                 <!--FEATURE-->
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="borderg">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-float">
+                    <div class="borderg prices">
                         <h3 class=" pd-10 mg-0">FEATURE</h3>
                         <h2 class="bggreen pd-10 mg-0">$25<small class="white">/MO</small></h2>
                         <p class="mg-0 bggreen pb-5">10 month Free trial</p>
@@ -454,8 +455,8 @@
                     </div>
                 </div>
                 <!--PROFESSIONAL-->
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
-                    <div class="borderg">
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 hvr-float">
+                    <div class="borderg prices">
                         <h3 class=" pd-10 mg-0">STARTER</h3>
                         <h2 class="bggreen pd-10 mg-0">$35<small class="white">/MO</small></h2>
                         <p class="mg-0 bggreen pb-5">15 month Free trial</p>
@@ -472,7 +473,7 @@
         </div>
     </section>
     <!--CLIENTS SAY-->
-    <section class="bggrayf white text-center pd-5 hidden-xs">
+    <section class="bggrayf white text-center pd-5 hidden-xs" id="clients">
         <div class="container">
            <!--title-->
             <div class="row">
@@ -512,7 +513,7 @@
         </div>
     </section>
     <!--GET IN TOUCH-->
-    <section class="bggrayf white text-center pd-5">
+    <section class="bggrayf white text-center pd-5" id="contact">
         <div class="container">
            <!--title-->
             <div class="row">
@@ -538,7 +539,7 @@
             <!--button-->
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <button class="bgbrownf white btn-lg">Submit</button>
+                    <button class="bgbrownf white btn-lg hvr-grow">Submit</button>
                     <p class="text-left mt-3">* Required</p>
                 </div>
             </div>
@@ -549,13 +550,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pd-5">
-                   <i class="fa fa-facebook-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-twitter-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-linkedin-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-pinterest-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-google-plus-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-tumblr-square fa-5x pd-1" aria-hidden="true"></i>
-                   <i class="fa fa-instagram fa-5x pd-1" aria-hidden="true"></i>
+                   <i class="fa fa-facebook-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-twitter-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-linkedin-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-pinterest-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-google-plus-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-tumblr-square fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
+                   <i class="fa fa-instagram fa-5x pd-1 hvr-rotate" aria-hidden="true"></i>
                 </div>
             </div>
         </div>
@@ -589,7 +590,7 @@
                         <span class="input-group-addon"><i class="fa fa-envelope orange" aria-hidden="true"></i></span>
                         <input type="text" class="form-control" placeholder="Enter email">
                     </div>
-                    <button class="bgbrownf white btn-lg mt-3">Subscribe Now!</button>
+                    <button class="bgbrownf white btn-lg mt-3 hvr-grow">Subscribe Now!</button>
                </div>
             </div>
         </div>

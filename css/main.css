@@ -5,6 +5,9 @@
 .pd-1{
     padding: 1%;
 }
+hr{
+    width: 25%
+}
 /*TEXT*/
 * {
     font-family: 'Roboto', sans-serif;
@@ -62,9 +65,29 @@
 .pb5{
     width: 80%;
 }
+/*WHAT WE DO*/
+.weDo:hover{
+    background-color: #297257;
+}
+.weDo h3:hover{
+    color: #AA6931;
+}
+.whatwd{
+    background-image: url("../img/icon-bg.png");
+    background-color: #2D3E50;
+}
+.whatwd:hover{
+    background-color: #AA6931;
+    background-image: none;
+    -webkit-transform: rotate(40deg);
+    margin: 13%;
+}
 /*PRICE*/
 .borderg{
     border: .1em solid #568248;
+}
+.prices:hover{
+    border: .1em solid #E47E20;
 }
 /*COLOR PALETTE*/
 .colors{
