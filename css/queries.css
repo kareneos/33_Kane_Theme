@@ -1,43 +1,49 @@
 /* responsive text queries */
 @media screen and (max-width: 992px) {
-  p,.btn,input,div,span,h4 {
+  p,.btn-lg,input,div,span{
     font-size: 100%;
   }
   h1 {
-    font-size: 36px;  
+    font-size: 225%;  
   }
   h2 {
-    font-size: 30px;  
+    font-size: 187.5%;  
   }
   h3 {
-    font-size: 24px;  
+    font-size: 160%;  
   }
   h4{
-    font-size: 18px;  
+    font-size: 112.5%;  
   }
    h5 {
-    font-size: 14px;  
+    font-size: 87.5%;  
   }
   h6{
-    font-size: 12px;  
+    font-size: 75%;  
   }
 }
 
 @media screen and (max-width: 768px) {
-  p,.btn,input,div,span,h4 {
-    font-size: 95%;
+  p,.btn-lg,input,div,span{
+    font-size: 97%;
   }
   h1 {
-    font-size: 20px;  
+    font-size: 200%;  
   }
   h2 {
-    font-size: 17px;  
+    font-size: 140%;  
   }
   h3 {
-    font-size: 15px;  
+    font-size: 145%;  
   }
-  h4, h5, h6{
-    font-size: 13px;  
+  h4{
+    font-size: 112.5%;  
+  }
+   h5 {
+    font-size: 87.5%;  
+  }
+  h6{
+    font-size: 75%;  
   }
   .text-right, #sectionblue, footer{
         text-align: center;
@@ -47,13 +53,7 @@
        margin-right: auto;
        margin-left: auto;
   }
-  .btn-lg{
-      padding: 1px 5px;
-      font-size: 12px;
-      line-height: 1.5;
-      border-radius: 3px;
-    }
-    #servicios span{
-        font-size: 4em;
+    #socialm i{
+        font-size: 2.5em;
     }
 }
